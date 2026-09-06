@@ -16,7 +16,9 @@ A from-scratch CNC router build: mechanical design in CAD, a custom ESP32-based 
 
 ## Overview
 
-[TODO: 2-3 sentences - working area dimensions, intended use (wood/PCB), what sets this build apart from off-the-shelf kits]
+This project is a from-scratch 3-axis CNC router designed and built as a personal engineering project, with a working area of 310 × 290 mm. It is intended for light-duty machining of materials such as wood and PCBs.
+
+The project combines mechanical design in Fusion 360, custom electronics designed in KiCad, an ESP32-based motion controller, and FluidNC firmware. The goal is to develop a complete CNC system covering the process from mechanical and electronic design through PCB manufacturing, firmware bring-up, machine calibration, and first machining tests.
 
 ## Mechanics
 
