@@ -54,7 +54,7 @@ A short log of real issues hit during design — often more interesting than the
 
 ## Photos
 
-[TODO: add photos/renders — `![description](path/to/image.jpg)`]
+![Fusion 360 assembly render](images/cnc-router-render.png)
 
 ## Roadmap
 
