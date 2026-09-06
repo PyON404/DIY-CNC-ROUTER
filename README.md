@@ -24,22 +24,20 @@ The project combines mechanical design in Fusion 360, custom electronics designe
 
 - Full 3D assembly designed in **Fusion 360** - complete
 - Printed parts in **PETG** on a **Bambu Lab P2S Combo**
-- [TODO: rails/linear guides, leadscrews/ball screws, X/Y/Z travel dimensions]
 
 ## Electronics / Controller
 
 Custom PCB (KiCad) integrating:
 - **ESP32** as the main controller
-- **4x TMC2209** — stepper motor drivers
+- **3x TMC2209** — stepper motor drivers
 - Firmware: **FluidNC**
 
-[TODO: exact ESP32 variant (WROOM/WROVER/S3?), buck converter model, system supply voltage, stepper motor type/current rating]
 
 ### BOM (Bill of Materials)
 | Component | Model | Qty |
 |---|---|---|
 | Microcontroller | ESP32 DevKit V1 | 1 |
-| Stepper driver | TMC2209 | 4 |
+| Stepper driver | TMC2209 | 3 |
 | Stepper motors | 17HS4401 | 3 |
 
 ## Firmware
