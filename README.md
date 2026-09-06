@@ -42,15 +42,8 @@ Custom PCB (KiCad) integrating:
 
 ## Firmware
 
-Based on FluidNC. [TODO: link/config.yaml file, FluidNC version, any modifications]
+Based on FluidNC
 
-## Problems Encountered & Solutions
-
-A short log of real issues hit during design — often more interesting than the finished result:
-
-- **GPIO pin assignment** — several ESP32 pins are input-only or strapping pins, which limited the freedom to route control signals and required reworking part of the pin mapping.
-- **EN_PWM on GPIO39** — schematic review caught that the EN_PWM signal was assigned to an input-only pin (GPIO39), which meant it couldn't function correctly as an output. [TODO: describe the fix]
-- **Unmapped 0–10V signal** — schematic review also found that the analog 0–10V signal had no input assigned. [TODO: describe the fix]
 
 ## Photos
 
